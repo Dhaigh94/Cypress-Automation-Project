@@ -1,0 +1,18 @@
+{
+  "name": "cypress-testing-project",
+  "version": "1.0.0",
+  "description": "Automated testing with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "David Haigh",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.3.2",
+    "cypress-image-snapshot": "^3.1.1"
+  }
+}
