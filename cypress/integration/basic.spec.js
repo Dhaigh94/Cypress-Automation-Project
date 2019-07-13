@@ -1,12 +1,12 @@
 describe('My first cypress test', () => {
-    it('Should load Fake Website', function() {
-        cy.visit('https://www.ultimateqa.com/fake-landing-page/')
+    it('Should load Example Website', function() {
+        cy.visit('https://example.com/')
 
-        cy.url().should('include', 'https://www.ultimateqa.com/fake-landing-page/')
-        cy.title().should('eq', "Fake landing page - Ultimate QA")
+        cy.url().should('include', 'https://example.com/')
+        cy.title().should('eq', 'Example Domain')
 
         cy.get('h1').as('title')
-        cy.get('@title').contains('Learn to Code Websites, Apps & Games')
+        cy.get('@title').contains('Example Domain')
         cy.get('@title').should('be.visible')
     })
 })
