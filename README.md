@@ -1,2 +1,2 @@
-# Online-Portfolio-Automation-Cypress
-This is my automation for my Online Portfolio using Cypress 
+# Cypress-Automation-Project
+This is my automation project for Cypress
