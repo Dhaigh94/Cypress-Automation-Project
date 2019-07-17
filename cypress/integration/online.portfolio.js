@@ -9,9 +9,6 @@ describe('My first Portfolio cypress test', () => {
         cy.get('@title').contains('About Me')
         cy.get('@title').should('be.visible')
     })
-})
-
-describe('My second Portfolio cypress test', () => {
     it('Should load Online Portfolio Contact Page', function() {
         cy.visit("https://www.davidhaighportfolio.com/contact")
     })
