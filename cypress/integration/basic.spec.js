@@ -10,3 +10,9 @@ describe('My first cypress test', () => {
         cy.get('@title').should('be.visible')
     })
 })
+
+describe('My second cypress test', () => {
+    it('Should load Google', function() {
+        cy.visit("https://google.com.au")
+    })
+})
