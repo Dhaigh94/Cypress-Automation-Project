@@ -9,7 +9,7 @@ describe('My first Portfolio cypress test', () => {
         cy.get('@title').contains('About Me')
         cy.get('@title').should('be.visible')
     })
-    it('Should load Online Portfolio Contact Page', function() {
-        cy.visit("https://www.davidhaighportfolio.com/contact")
+    it('Should load not Online Portfolio Page', function() {
+        cy.visit("https://www.ebgames.com.au/")
     })
 })
