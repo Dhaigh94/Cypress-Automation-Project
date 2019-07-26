@@ -1,3 +1,15 @@
 {
-    "baseUrl": "https://www.davidhaighportfolio.com"
+    "baseUrl": "https://www.davidhaighportfolio.com",
+    "defaultCommandTimeout": 8000,
+    "execTimeout": 60000,
+    "taskTimeout": 60000,
+    "pageLoadTimeout": 30000,
+    "requestTimeout": 5000,
+    "responseTimeout": 30000,
+    "screenshotFolder": "cypress/screenshots",
+    "videosFolder": "cypress/videos",
+    "videoCompression": false,
+    "video": true,
+    "videoUploadOnPasses": true,
+    "trashAssetsBeforeRuns": true
 }
