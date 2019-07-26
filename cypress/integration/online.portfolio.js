@@ -10,6 +10,6 @@ describe('My first Portfolio cypress test', () => {
         cy.get('@title').should('be.visible')
     })
     it('Should load not Online Portfolio Page', function() {
-        cy.visit("https://www.ebgames.com.au/")
+        cy.visit("https://www.apple.com/au/")
     })
 })
