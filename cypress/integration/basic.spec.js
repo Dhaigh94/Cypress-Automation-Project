@@ -1,5 +1,5 @@
 describe('My first cypress test', () => {
-    it('Should load Example Website', function() {
+    it('Should load example.com', function() {
         cy.visit('https://example.com/')
 
         cy.url().should('include', 'https://example.com/')
