@@ -16,7 +16,7 @@ describe('Functional tests for itera website', () => {
         cy.get('.btn-primary').click()
     })
 
-    it('Select Gender and check the checkboxs for days works best', function() {
+    it('Select Gender and check the checkboxs for the days that work best', function() {
        // Selects the Male checkbox
        cy.get('#male').click()
        // Select the Tuesday checkbox
@@ -25,7 +25,7 @@ describe('Functional tests for itera website', () => {
        cy.get('#friday').click() 
     })
 
-    it('Select Norway as the the country to travel to', function() {
+    it('Select Norway as the country to travel to', function() {
         // Clicks on the dropdown box
         cy.get('.form-group').click({multiple: true})
         // Selects the Norway option
