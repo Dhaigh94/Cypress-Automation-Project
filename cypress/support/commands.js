@@ -29,3 +29,9 @@ Cypress.Commands.add('submitDeveloper', (name) => {
     cy.get('#submit-button').scrollIntoView()
     cy.get('#submit-button').click()
 })
+
+Cypress.Commands.add('loginToApp', (Name, Password) => {
+    cy.get('#user_login').type(Name)
+    cy.get('#user_password').type(Password)
+    cy.contains('Sign in').click()
+})
