@@ -4,16 +4,16 @@ describe('Login Test', () => {
         cy.url().should('include', 'index.html')
     })
 
-    it('should display login form', function() {
+    it('Should display login form', function() {
         cy.get('#signin_button').click()
         cy.get('#login_form').should('be.visible')
     })
 
-    it('should login to application', function() {
+    it('Should login to application', function() {
         cy.loginToApp('David', 'Password')
     })
 
-    it('should display error message', function() {
+    it('Should display error message', function() {
         cy.get('.alert-error').as('Error_Message')
         cy.get('@Error_Message').should('be.visible')
     })

@@ -4,7 +4,7 @@ describe('Navbar Test', () => {
         cy.url().should('include', 'index.html')
     })
 
-    it('should display online banking content', function() {
+    it('Should display online banking content', function() {
         cy.get('#onlineBankingMenu').as('Link_OnlineBanking')
 
         cy.get('@Link_OnlineBanking').click()
@@ -15,14 +15,14 @@ describe('Navbar Test', () => {
         cy.get('#online_banking_features').should('be.visible')
     })
 
-    it('should display feedback content', function() {
+    it('Should display feedback content', function() {
         cy.get('#feedback').as('Link_Feedback')
 
         cy.get('@Link_Feedback').click()
         cy.get('#feedback-title').should('be.visible')
     })
 
-    it('should navigate to homepage via logo', function() {
+    it('Should navigate to homepage via logo', function() {
        cy.get('.brand').as('Logo')
        
        cy.get('@Logo').click()

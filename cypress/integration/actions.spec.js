@@ -16,7 +16,7 @@ describe('Action Test', () => {
        // runs after each test in the block
    })
 
-   it('submit developer name', function() {
+   it('Submit developer name', function() {
     //    cy.get('#developer-name').type('name')
     //    cy.get('#submit-button').scrollIntoView()
     //    cy.get('#submit-button').click()
@@ -26,7 +26,7 @@ describe('Action Test', () => {
        cy.url().should('include', "thank-you")
    })
 
-   it('should enable slider', function() {
+   it('Should enable slider', function() {
        cy.get('#slider').as('slider')
 
        cy.get('@slider').should('have.class', 'ui-state-disabled')
@@ -34,7 +34,7 @@ describe('Action Test', () => {
        cy.get('@slider').should('not.have.class', 'ui-state-disabled')
    })
 
-   it('should have empty value by default', function() {
+   it('Should have empty value by default', function() {
        cy.get('#comments').as('Textarea')
 
        cy.get('#tried-test-cafe').click()
