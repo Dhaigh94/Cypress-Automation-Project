@@ -1,5 +1,5 @@
 describe('Portfolio cypress test on the home page', () => {
-    before(function() {
+    beforeEach(function() {
         cy.visit('/')
         cy.url().should('include', 'https://www.davidhaighportfolio.com')
         cy.title().should('eq', "David's Portfolio")
