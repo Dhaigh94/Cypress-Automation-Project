@@ -9,7 +9,8 @@ describe('Navbar Test', () => {
 
         cy.get('@Link_OnlineBanking').click()
 
-        cy.get('h1').as('Title')
+        // Getting the h1 selector using xpath
+        cy.xpath('//h1').as('Title')
         cy.get('@Title').contains('Online Banking')
 
         cy.get('#online_banking_features').should('be.visible')
