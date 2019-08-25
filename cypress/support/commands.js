@@ -23,6 +23,9 @@
 //
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+const { addMatchImageSnapshotCommand } = require('cypress-image-snapshot/command')
+
+addMatchImageSnapshotCommand()
 
 Cypress.Commands.add('submitDeveloper', (name) => {
     cy.get('#developer-name').type(name)
