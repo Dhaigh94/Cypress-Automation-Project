@@ -11,5 +11,7 @@
     "videoCompression": false,
     "video": true,
     "videoUploadOnPasses": true,
-    "trashAssetsBeforeRuns": true
+    "trashAssetsBeforeRuns": true,
+    "darkMediaQuery": true,
+    "theme": "dark"
 }
