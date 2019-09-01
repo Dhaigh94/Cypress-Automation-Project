@@ -9,7 +9,7 @@ describe('Action Test', () => {
 
    beforeEach(function() {
        // runs before each test in the block
-       cy.visit('https://devexpress.github.io/testcafe/example/')
+       cy.visit('/')
    })
 
    afterEach(function() {
