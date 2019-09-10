@@ -8,6 +8,6 @@ describe('My first visual regression test', () => {
     })
 
     it('Should make page snapshot', function() {
-        cy.matchImageSnapshot()
+        cy.percySnapshot('Example')
     })
 })

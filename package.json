@@ -13,10 +13,10 @@
   "author": "David Haigh",
   "license": "ISC",
   "dependencies": {
-    "cypress-image-snapshot": "^3.1.1",
     "cypress-xpath": "^1.4.0"
   },
   "devDependencies": {
+    "@percy/cypress": "^2.0.1",
     "cypress": "^3.4.1",
     "cypress-dark": "^1.7.14"
   }
