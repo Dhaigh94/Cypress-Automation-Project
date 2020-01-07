@@ -16,8 +16,8 @@
     "cypress-xpath": "^1.4.0"
   },
   "devDependencies": {
-    "@percy/cypress": "^2.0.1",
-    "cypress": "^3.4.1",
+    "@percy/cypress": "^2.2.0",
+    "cypress": "^3.8.1",
     "cypress-dark": "^1.7.14"
   }
 }
